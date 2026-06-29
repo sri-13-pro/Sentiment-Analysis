@@ -127,26 +127,20 @@ These charts help understand the overall customer opinion about Amazon food prod
 ```text
 Amazon-Food-Sentiment-Analysis/
 │Sentiment-Analysis/
-│
-├── README.md
-├── LICENSE
-├── sentiment_analysis.py
-├── requirements.txt
-├── dataset.csv
-├── screenshots/
-│      ├── output.png
-│      └── graph.png
-└── .gitignore
-├── main.py
-├── Reviews.csv
-├── sentiment_analysis_output.csv
-├── sentiment_bar_chart.png
-├── sentiment_pie_chart.png
-├── README.md
-├── requirements.txt
-└── venv/
-```
+## 📂 Project Structure
 
+```text
+Amazon-Food-Sentiment-Analysis/
+│
+├── .gitignore                  # Git ignore rules
+├── LICENSE                     # MIT License
+├── README.md                   # Project documentation
+├── main.py                     # Main sentiment analysis script
+├── requirements.txt            # Python dependencies
+├── sentiment_bar_chart.png     # Generated bar chart
+├── sentiment_pie_chart.png     # Generated pie chart
+└── sentiment_analysis_output.csv   # Generated after running the project
+```
 ---
 
 ## 🧠 Sentiment Classification
