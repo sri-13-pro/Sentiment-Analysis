@@ -134,6 +134,39 @@ print("\nSentiment Percentage")
 print((counts / len(df) * 100).round(2))
 
 # ==========================================================
+# Review Score Distribution
+# ==========================================================
+
+print("\nGenerating Review Score Distribution Chart...")
+
+score_counts = df["Score"].value_counts().sort_index()
+
+plt.figure(figsize=(8,5))
+
+score_counts.plot(
+    kind="bar",
+    color="skyblue",
+    edgecolor="black"
+)
+
+plt.title("Amazon Review Score Distribution")
+plt.xlabel("Review Score")
+plt.ylabel("Number of Reviews")
+
+plt.xticks(
+    range(5),
+    ["1 Star", "2 Stars", "3 Stars", "4 Stars", "5 Stars"],
+    rotation=0
+)
+plt.grid(axis="y", linestyle="--", alpha=0.5)
+
+plt.tight_layout()
+
+plt.savefig("review_score_distribution.png", dpi=300)
+
+print("✓ Review Score Distribution Saved")
+
+# ==========================================================
 # Visualization - Bar Chart
 # ==========================================================
 
