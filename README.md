@@ -55,11 +55,11 @@ Place the downloaded `Reviews.csv` file inside the project folder.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/amazon-food-sentiment-analysis.git
+https://github.com/sri-13-pro/Sentiment-Analysis.git
 ```
 
 ```bash
-cd amazon-food-sentiment-analysis
+cd Sentiment-Analysis
 ```
 
 ---
